@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Achilles
+title: J's Blog
 subtitle:
 description: すべての出会いが美しいとは限らない。すべての別れが悲しいとは言えない。
 author: Yunjie Zhang
@@ -83,5 +83,5 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:AchillesSatan/achillessatan.github.io.git
+  repository: git@github.com.sub:AchillesSatan/achillessatan.github.io.git
   branch: master

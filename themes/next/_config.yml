@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Achilles, Hexo, NexT"
+keywords: "J's Blog, Ruby, Rails, 技术, 开发"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -28,7 +28,7 @@ since: 2016
 menu:
   home: /
   categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -181,11 +181,11 @@ mathjax:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: PSvmRRHFcGd9enMteWnlmI9Pq_vSkcKfT5-JLu_KcUc
 
 
-# Google Analytics
-#google_analytics:
+# Google AnalyticsUA-63895018-
+google_analytics: UA-63895018-3
 
 
 # Make duoshuo show UA
