@@ -78,6 +78,10 @@
           {% endif %}
         </div>
 
+        <!-- ad start -->
+        {% include '../_partials/custom_ad/google_adsense.swig' %}
+        <!-- ad end -->
+
         {% set cc = {'by': 1, 'by-nc': 1, 'by-nc-nd': 1, 'by-nc-sa': 1, 'by-nd': 1, 'by-sa': 1, 'zero': 1} %}
         {% if theme.creative_commons in cc %}
           <div class="cc-license motion-element" itemprop="license">
@@ -116,6 +120,9 @@
             {% else %}
               <div class="post-toc-content">{{ toc }}</div>
             {% endif %}
+            <!-- ad start -->
+            {% include '../_partials/custom_ad/google_adsense.swig' %}
+            <!-- ad end -->
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
             <i class="fa fa-angle-double-down"></i>

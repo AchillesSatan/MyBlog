@@ -69,8 +69,9 @@ scheme: Mist
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/ZhangYunjie
+  Facebook: https://www.facebook.com/achillessatan
   #Others:
 
 # Social Icons
@@ -80,6 +81,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  Facebook: facebook
 
 
 # Sidebar Avatar
@@ -103,17 +105,16 @@ toc:
 creative_commons: by-nc-sa
 #creative_commons:
 
-sidebar:
+sidebar: always
   # Sidebar Position, available value: left | right
   # position: left
-  position: left
+  # position: left
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle icon.
-  display: always
   #display: always
   #display: hide
   #display: remove
@@ -162,13 +163,13 @@ mathjax:
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: TSV1GVxCS2Mmwjagk2Hn
 
 # Baidu Analytics ID
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: achillessatan
 
 # Disqus
 #disqus_shortname:
@@ -178,6 +179,8 @@ mathjax:
 
 # Share
 #duoshuo_share: true
+
+baidushare: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -219,6 +222,7 @@ leancloud_visitors:
 # Tencent analytics ID
 # tencent_analytics:
 
+# duoshuo_hotartical: true
 
 
 
