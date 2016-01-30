@@ -80,6 +80,13 @@
             </span>
           {% endif %}
 
+          {% if not is_index %}
+            <span id="busuanzi_container_page_pv">
+              &nbsp; | &nbsp;
+              本文被围观<span id="busuanzi_value_page_pv"></span>次
+            </span>
+          {% endif %}
+
           {% if post.comments %}
             {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
               <span class="post-comments-count">
@@ -209,6 +216,19 @@
       {% set isLast = loop.index % page.per_page === 0 %}
       {% if is_index and not isLast %}
         <div class="post-eof"></div>
+      {% endif %}
+      {% if not is_index %}
+        <div style="margin-top: 20px;">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Blog Bar -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-4071888081309947"
+                 data-ad-slot="8612849919"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        <div style="margin-top: 20px;">
       {% endif %}
     </footer>
   </article>
