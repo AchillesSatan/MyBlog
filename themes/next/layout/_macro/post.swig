@@ -218,16 +218,17 @@
         <div class="post-eof"></div>
       {% endif %}
       {% if not is_index %}
-        <div style="margin-top: 20px;">
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Blog Bar -->
-            <ins class="adsbygoogle"
-                 style="display:inline-block;width:728px;height:90px"
-                 data-ad-client="ca-pub-4071888081309947"
-                 data-ad-slot="8612849919"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
+        <div style="margin-top: 20px; width: 100%">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Blog Bar 1 -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-4071888081309947"
+               data-ad-slot="1022204317"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
         <div style="margin-top: 20px;">
       {% endif %}
     </footer>
