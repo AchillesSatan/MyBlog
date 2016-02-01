@@ -12,6 +12,7 @@
         {% else %}
             <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
               {% if post.type === 'picture' %}
+                <span itemprop="name">{{ post.title | default(__('post.untitled')) }}</span>
                 {{ post.content }}
               {% else %}
                 <span itemprop="name">{{ post.title | default(__('post.untitled')) }}</span>

@@ -72,6 +72,7 @@ scheme: Mist
 social:
   GitHub: https://github.com/ZhangYunjie
   Facebook: https://www.facebook.com/achillessatan
+  Weibo: http://www.weibo.com/2011169150/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
   #Others:
 
 # Social Icons
@@ -178,9 +179,9 @@ duoshuo_shortname: achillessatan
 #jiathis:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
-baidushare: true
+#baidushare: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/

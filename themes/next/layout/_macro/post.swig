@@ -11,7 +11,7 @@
 
   <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
 
-    {% if not headlessPost %}
+    {% if not headlessPost or post.type === 'picture' %}
       <header class="post-header">
 
         {# Not to show title for quote posts that do not have a title #}
@@ -216,20 +216,6 @@
       {% set isLast = loop.index % page.per_page === 0 %}
       {% if is_index and not isLast %}
         <div class="post-eof"></div>
-      {% endif %}
-      {% if not is_index %}
-        <div style="margin-top: 20px; width: 100%">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- Blog Bar 1 -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-4071888081309947"
-               data-ad-slot="1022204317"
-               data-ad-format="auto"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        <div style="margin-top: 20px;">
       {% endif %}
     </footer>
   </article>
