@@ -13,9 +13,9 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # github
-url: http://achillessatan.github.io/
+# url: http://achillessatan.github.io/
 # gitcafe
-# url: http://achillessatan.gitcafe.io/
+url: http://achillessatan.gitcafe.io/
 
 root: /
 permalink: :year/:month/:day/:title/
@@ -88,5 +88,5 @@ feed:
 deploy:
   type: git
   repo:
-    github: git@github.com:AchillesSatan/achillessatan.github.io.git,master
-    # gitcafe: git@gitcafe.com:AchillesSatan/achillessatan.git,gitcafe-pages
+    # github: git@github.com:AchillesSatan/achillessatan.github.io.git,master
+    gitcafe: git@gitcafe.com:AchillesSatan/achillessatan.git,gitcafe-pages
