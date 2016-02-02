@@ -70,6 +70,7 @@ pagination_dir: page
 theme: next
 
 plugins:
+  - hexo-generator-baidu-sitemap
   - hexo-generator-sitemap
   - hexo-generator-feed
 
