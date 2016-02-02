@@ -167,7 +167,7 @@ mathjax:
 swiftype_key: TSV1GVxCS2Mmwjagk2Hn
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: b47fbf2a67a5876c7c346e5c811cce7c
 
 # Duoshuo ShortName
 duoshuo_shortname: achillessatan
@@ -186,7 +186,10 @@ duoshuo_share: true
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 google_site_verification: PSvmRRHFcGd9enMteWnlmI9Pq_vSkcKfT5-JLu_KcUc
+# github
 baidu_site_verification: Pgvj1CmKRG
+# gitcafe
+# baidu_site_verification: Zy4Kd3s3mV
 
 
 # Google AnalyticsUA-63895018-
