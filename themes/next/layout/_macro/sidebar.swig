@@ -88,9 +88,7 @@
         {% endif %}
 
         <!-- ad start -->
-        <div style="margin-top: 20px;">
-          {% include '../_partials/custom_ad/google_adsense.swig' %}
-        </div>
+        {% include '../_partials/custom_ad/google_adsense.swig' %}
         <!-- ad end -->
 
         <div class="links-of-author motion-element">
@@ -123,9 +121,7 @@
               <div class="post-toc-content">{{ toc }}</div>
             {% endif %}
             <!-- ad start -->
-            <div style="margin-top: 20px;">
-              {% include '../_partials/custom_ad/google_adsense.swig' %}
-            </div>
+            {% include '../_partials/custom_ad/google_adsense.swig' %}
             <!-- ad end -->
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
