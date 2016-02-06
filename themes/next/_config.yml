@@ -89,8 +89,8 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-avatar: https://avatars3.githubusercontent.com/u/4191189
-
+# avatar: https://avatars3.githubusercontent.com/u/4191189
+avatar: /img/logo-1.png
 
 # TOC in the Sidebar
 toc:
