@@ -57,7 +57,7 @@
 {% if theme.favicon %}
   <link rel="shortcut icon" type="image/x-icon" href="{{ url_for(theme.favicon) }}?v={{ theme.version }}" />
   <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" , type: 'image/png'/>
 {% endif %}
 
 
