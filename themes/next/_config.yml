@@ -106,7 +106,7 @@ toc:
 creative_commons: by-nc-sa
 #creative_commons:
 
-sidebar: post
+sidebar: always
   # Sidebar Position, available value: left | right
   # position: left
   # position: left

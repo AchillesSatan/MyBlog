@@ -38,24 +38,20 @@
               <span class="site-state-item-name">{{ __('state.posts') }}</span>
             </a>
           </div>
-          
-          {% if site.categories.length > 0 %}
-            <div class="site-state-item site-state-categories">
-              {% if theme.menu.categories %}<a href="{{ url_for(theme.menu.categories) }}">{% endif %}
-                <span class="site-state-item-count">{{ site.categories.length }}</span>
-                <span class="site-state-item-name">{{ __('state.categories') }}</span>
-              {% if theme.menu.categories %}</a>{% endif %}
-            </div>
-          {% endif %}
 
-          {% if site.tags.length > 0 %}
-            <div class="site-state-item site-state-tags">
-              {% if theme.menu.tags %}<a href="{{ url_for(theme.menu.tags) }}">{% endif %}
-                <span class="site-state-item-count">{{ site.tags.length }}</span>
-                <span class="site-state-item-name">{{ __('state.tags') }}</span>
+          <div class="site-state-item site-state-categories">
+            {% if theme.menu.categories %}<a href="{{ url_for(theme.menu.categories) }}">{% endif %}
+              <span class="site-state-item-count">{{ site.categories.length }}</span>
+              <span class="site-state-item-name">{{ __('state.categories') }}</span>
+              {% if theme.menu.categories %}</a>{% endif %}
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            {% if theme.menu.tags %}<a href="{{ url_for(theme.menu.tags) }}">{% endif %}
+              <span class="site-state-item-count">{{ site.tags.length }}</span>
+              <span class="site-state-item-name">{{ __('state.tags') }}</span>
               {% if theme.menu.tags %}</a>{% endif %}
-            </div>
-          {% endif %}
+          </div>
 
         </nav>
 
@@ -91,6 +87,10 @@
           </div>
         {% endif %}
 
+        <!-- ad start -->
+        {% include '../_partials/custom_ad/google_adsense.swig' %}
+        <!-- ad end -->
+
         <div class="links-of-author motion-element">
           {% if theme.links %}
             <p class="site-author-name">{{ theme.links_title }}</p>
@@ -120,6 +120,9 @@
             {% else %}
               <div class="post-toc-content">{{ toc }}</div>
             {% endif %}
+            <!-- ad start -->
+            {% include '../_partials/custom_ad/google_adsense.swig' %}
+            <!-- ad end -->
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
             <i class="fa fa-angle-double-down"></i>
