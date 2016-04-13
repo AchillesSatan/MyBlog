@@ -778,6 +778,15 @@ var templates = {
     ]);
   },
 
+  group10Layout8: function (pictures) {
+    return this.getHTML([
+      pictures.slice(0, 1),
+      pictures.slice(1, 5),
+      pictures.slice(5, 8),
+      pictures.slice(8)
+    ]);
+  },
+
   /**
    * Defaults Layout
    *
