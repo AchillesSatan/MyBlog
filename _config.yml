@@ -72,7 +72,7 @@ theme: next
 plugins:
   - hexo-generator-baidu-sitemap
   - hexo-generator-sitemap
-  - hexo-generator-feed
+  - "hexo-generator-feed": "^1.2.0"
 
 #sitemap
 sitemap:
