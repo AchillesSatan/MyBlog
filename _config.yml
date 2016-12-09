@@ -88,6 +88,6 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    github: git@github.com:AchillesSatan/achillessatan.github.io.git,master
+  repo: git@github.com:AchillesSatan/achillessatan.github.io.git
+  branch: master
     # gitcafe: git@gitcafe.com:AchillesSatan/achillessatan.git,gitcafe-pages
